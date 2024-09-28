@@ -81,14 +81,14 @@ class ExtTest {
     fun pingTest() {
         println("wwws.baidu.com".quickPing())
         println("wwws.baidu.com".quickPing())
-        println("www.baidu.com".quickPing())
+        println("www.tiktok.com".quickPing())
     }
 
     @Test
     fun socketTest() {
         println("wwws.baidu.com".quickConnect(50))
-        println("www.baidu.com".quickConnect(80))
-        println("www.baidu.com".quickConnect(443))
+        println("www.tiktok.com".quickConnect(80))
+        println("www.tiktok.com".quickConnect(443))
     }
 
     @Test
